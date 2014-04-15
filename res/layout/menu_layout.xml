@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tile_repeat"
+    android:weightSum="1"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="0.1"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/toggle_sound"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:src="@drawable/nomusic"
+                android:scaleType="centerCrop" />
+            
+            <ImageView
+            android:id="@+id/help_button"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="15dip"
+            android:src="@drawable/qn"
+            android:scaleType="centerCrop" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/sign_out_button"
+            android:layout_width="80dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:clickable="true"
+			android:focusable="true"
+            android:gravity="right"
+            android:background="@drawable/layout_bg_selector">
+            
+            <com.taimurlukas.metric2.FontTextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="LOG OUT"
+                android:textColor="#353535"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:typeface="normal" />
+            
+            </LinearLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.16"
+        android:maxWidth="300dp"
+        android:adjustViewBounds="true"
+        android:orientation="vertical"
+        android:src="@drawable/metriclogo" />
+    
+    <View
+        android:layout_height="1dp"
+        android:layout_width="fill_parent"
+        android:layout_weight="0.1" />
+    
+    <com.google.android.gms.common.SignInButton
+	        android:id="@+id/sign_in_button"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        android:layout_gravity="center_horizontal"/>
+
+    <com.taimurlukas.metric2.FontTextView2
+        android:id="@+id/signed_in_view"
+        android:layout_width="fill_parent"
+        android:layout_height="36dp"
+        android:layout_marginBottom="12dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:textColor="#ffffff"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_weight="0.1" />
+    
+    <ImageView
+	        android:id="@+id/white_box2"
+	        android:layout_width="fill_parent"
+	        android:layout_height="1dp"
+	        android:layout_weight="0.05"
+	        android:background="@color/white" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_weight="0.05"
+        android:gravity="center_vertical" >
+
+	    <ImageView
+	        android:id="@+id/white_box"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:background="@color/white" />
+	    
+	    <com.taimurlukas.metric2.PlayButtonView
+	        android:id="@+id/play_button"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+			android:scaleType="fitStart"
+			android:adjustViewBounds="true"
+ 	        android:layout_centerHorizontal="true"
+	        android:layout_centerVertical="true"  
+	        android:background="@color/white" />
+    </RelativeLayout>
+    
+    <ImageView
+        android:id="@+id/white_box2"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.05"
+        android:background="@color/white" />
+    
+    <View
+        android:layout_height="1dp"
+        android:layout_width="fill_parent"
+        android:layout_weight="0.1" />
+    
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.2" >
+
+    <LinearLayout
+            android:id="@+id/highscore_button"
+            android:layout_width="220dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"  
+	        android:scaleType="centerInside"
+	        android:layout_centerVertical="true"
+            android:clickable="true"
+			android:focusable="true"
+            android:background="@drawable/layout_bg_selector" >
+
+            <com.taimurlukas.metric2.FontTextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+                android:text="LEADERBOARD"
+                android:textColor="#353535"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:typeface="normal" />
+        </LinearLayout>
+</RelativeLayout>
+
+    
+    
+ 
+</LinearLayout>

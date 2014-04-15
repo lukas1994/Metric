@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:layout_gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true" >
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="20dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginBottom="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_gravity="center"
+    android:clickable="true"
+    android:background="@drawable/container_dropshadow" >
+    
+    
+    
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="-50dp" >
+    <com.taimurlukas.metric2.FontTextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="HOW TO PLAY"
+                android:textColor="#353535"
+                android:textSize="24sp"
+                android:typeface="normal" />
+    
+    <ImageView
+        android:id="@+id/demo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/demo2" />
+
+    <com.taimurlukas.metric2.FontTextView2
+        android:id="@+id/textView1"
+        android:layout_marginTop="20dp"
+        android:textColor="#353535"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Drag the red dot until you think the area of the square matches the area of the object above it.\nYour score represents the percentage error between your guess and the actual shape area." />
+    
+    </LinearLayout>
+    
+        
+    </LinearLayout>
+    <ImageView
+         android:id="@+id/close_button"
+         android:layout_width="40dp"
+         android:layout_height="40dp"
+         android:layout_gravity="top|right"
+         android:src="@drawable/close" />
+     </FrameLayout>
+     
+ 
+</LinearLayout>

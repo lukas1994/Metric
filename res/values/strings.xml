@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!---->
+    
+    <string name="app_name">Metric</string>
+
+    <string name="sign_in_why">Sign in with Google to share your scores and achievements with your friends.</string>
+    <string name="you_are_signed_in">You are signed in with Google.</string>
+    <string name="sign_out">Sign out</string>
+    <string name="sign_in_to_upload_this_score">Sign in now to upload this score, save your achievements and share your progress with friends.</string> 
+    <string name="leaderboards_not_available">Please sign in to view leaderboards.</string>
+    
+    <string name="achievement">Achievement</string>
+    <string name="achievement_1_toast_text">level 1 completed</string>
+    <string name="achievement_2_toast_text">level 2 completed</string>
+    <string name="achievement_3_toast_text">level 3 completed</string>
+    <string name="achievement_4_toast_text">level 4 completed</string>
+    <string name="achievement_5_toast_text">level 5 completed</string>
+    
+    <string name="clear">Clear</string>
+    <string name="ok">OK</string>
+        
+    <string name="no_heighscore_yet">-</string>
+    <string name="no_score_yet">oo</string>
+    
+    <string name="greeting">Hi</string>
+    
+    
+    
+    <color name="show">#4696db</color>
+    <color name="guess">#4696db</color>
+    <color name="guess2">#b72424</color>
+    <color name="white">#FFFFFF</color>
+    <color name="bg_red">#901c1c</color>
+    <color name="real_area">#27BB24</color>
+    
+    <integer name="score_decimal_places">100</integer> <!-- 10^x -->
+    <integer name="games_per_level">8</integer>
+    <integer name="start_guess_dist_to_center">70</integer>
+    <integer name="square_min_side_length">100</integer>
+    <integer name="guess_circle_radius">10</integer>
+    <integer name="frame_rate">12</integer>
+    <integer name="animation_time">300</integer>
+    
+    <integer name="win_level_1">2000</integer>
+    <integer name="win_level_2">1500</integer>
+    <integer name="win_level_3">1000</integer>
+    <integer name="win_level_4">1000</integer>
+    <integer name="win_level_5">800</integer>
+    <integer name="win_level_6">2000</integer>
+    <integer name="win_level_7">1500</integer>
+    <integer name="win_level_8">1000</integer>
+    <integer name="win_level_9">1000</integer>
+    <integer name="win_level_10">800</integer>
+    <integer name="win_level_11">2000</integer>
+    <integer name="win_level_12">1500</integer>
+    <integer name="win_level_13">1000</integer>
+    <integer name="win_level_14">1000</integer>
+    <integer name="win_level_15">800</integer>
+    <integer name="win_level_16">2000</integer>
+    <integer name="win_level_17">1500</integer>
+    <integer name="win_level_18">1000</integer>
+    <integer name="win_level_19">1000</integer>
+    <integer name="win_level_20">800</integer>
+    <integer name="win_level_21">2000</integer>
+    <integer name="win_level_22">1500</integer>
+    <integer name="win_level_23">1000</integer>
+    <integer name="win_level_24">1000</integer>
+    <integer name="win_level_25">800</integer>
+    
+</resources>

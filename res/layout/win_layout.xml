@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/screen_win"
+    android:weightSum="1"
+    android:gravity="center">
+        
+        <com.taimurlukas.metric2.FontTextView
+            android:id="@+id/levelselect"
+            android:layout_width="304dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.2"
+            android:gravity="center"
+            android:text="LEVEL COMPLETE"
+            android:textColor="#fff"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:typeface="normal" />
+        
+        <View
+            android:layout_weight="0.1"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp" />
+
+        <TextView android:layout_width="wrap_content"
+            android:id="@+id/OpenSans"
+            android:layout_height="wrap_content"
+            android:text="Average Error:"
+            android:textColor="#eee"/>
+        
+        <View
+            android:layout_weight="0.1"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp" />
+
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="30sp"
+            android:textColor="#353535"
+            android:gravity="center"
+            android:background="@drawable/circle"
+            android:id="@+id/score_display"/>
+        
+        <TextView android:layout_width="wrap_content"
+            android:id="@+id/text_view_1"
+            android:layout_height="wrap_content"
+            android:textColor="#eee"
+            android:layout_marginBottom="5dp" />
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        
+        <TextView android:layout_width="wrap_content"
+            android:id="@+id/text_view_2"
+            android:layout_height="wrap_content"
+            android:textColor="#eee" />
+        
+        <LinearLayout
+            android:id="@+id/try_again_button"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:paddingBottom="7dp"
+			android:paddingLeft="20dp"
+			android:paddingRight="20dp"
+			android:paddingTop="7dp"
+			android:clickable="true"
+			android:focusable="true"
+            android:background="@drawable/layout_bg_selector" >
+            
+            <com.taimurlukas.metric2.FontTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+                android:text="TRY AGAIN"
+                android:layout_weight="1"
+                android:textColor="#353535"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="normal" />
+            
+            </LinearLayout>
+            </LinearLayout>
+                
+        <View
+            android:layout_weight="0.1"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp" />
+
+        <LinearLayout
+            android:id="@+id/win_ok_button"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:paddingBottom="7dp"
+			android:paddingLeft="20dp"
+			android:paddingRight="20dp"
+			android:paddingTop="7dp"
+			android:clickable="true"
+			android:focusable="true"
+            android:background="@drawable/layout_bg_selector" >
+            
+            <com.taimurlukas.metric2.FontTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+                android:text="BACK TO LEVEL SELECT"
+                android:layout_weight="1"
+                android:textColor="#353535"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="normal" />
+            
+            </LinearLayout>
+            
+        <View
+            android:layout_weight="0.1"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp" />
+
+        <ImageView
+            android:id="@+id/share_button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="0.01"
+            android:src="@drawable/share" />
+
+    
+
+    <LinearLayout android:id="@+id/win_screen_sign_in_bar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#f0f0f0"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="10dp"
+        android:visibility="gone">
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/win_screen_sign_in_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Sign in now to upload your score and check whether you beat your friends."
+            android:layout_marginLeft="10dp"
+            android:textColor="#808080"
+            />
+        
+        <TextView
+                android:id="@+id/highscore_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-4dp"
+                android:gravity="center_horizontal|top"
+                android:textColor="#fff"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:typeface="normal" />
+
+</LinearLayout>
+
+</LinearLayout>
